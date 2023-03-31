@@ -1,10 +1,11 @@
-import { AudioPlayer } from "./view/AudioPlayer"
+import tracks from '@/assets/podcasts/tracks';
+import {AudioPlayer} from '@/view/AudioPlayer/AudioPlayer';
 
 function App() {
 
   return (
     <div className="App">
-      <AudioPlayer/>
+      <AudioPlayer tracks={tracks}/>
     </div>
   )
 }

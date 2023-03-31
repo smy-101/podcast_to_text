@@ -1,5 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
-import { AudioControls } from "../components/AudioControls/AudioControls";
+import { AudioControls } from '@/components/AudioControls/AudioControls';
+import reactSvg from '@/assets/react.svg';
+import './AudioPlayer.scss';
 
 type Props = {
 	tracks: { title: string; podcastSrc: string }[];
@@ -37,10 +39,10 @@ const AudioPlayer: React.FC<Props> = (props) => {
 		}, 1000);
 	};
 
-	const onScrub = (value: number) => {
+	const onScrub = (value: number | string) => {
 		// Clear any timers already running
 		clearInterval(intervalRef.current);
-		audioRef.current.currentTime = value;
+		audioRef.current.currentTime = Number(value);
 		setTrackProgress(audioRef.current.currentTime);
 	};
 
@@ -104,7 +106,28 @@ const AudioPlayer: React.FC<Props> = (props) => {
 
 	return (
 		<>
-			<AudioControls isPlaying={isPlaying} onNextClick={toNextTrack} onPlayPauseClick={() => setIsPlaying(!isPlaying)} onPrevClick={toPrevTrack} />
+			<div className='audioPlayer'>
+				<div className='trackInfo'>
+					<img className='artwork' src={reactSvg} alt=""/>
+					<h2 className="title">{title}</h2>
+					<h3 className="artist">xxyy</h3>
+					<AudioControls isPlaying={isPlaying} onNextClick={toNextTrack} onPlayPauseClick={() => setIsPlaying(!isPlaying)} onPrevClick={toPrevTrack} />
+
+					<input
+						type="range"
+						value={trackProgress}
+						step="1"
+						min="0"
+						max={duration ? duration : `${duration}`}
+						className="progress"
+						onChange={(e) => onScrub(e.target.value)}
+						onMouseUp={onScrubEnd}
+						onKeyUp={onScrubEnd}
+						style={{ background: trackStyling }}
+					/>
+				</div>
+			</div>
+
 		</>
 	);
 };
