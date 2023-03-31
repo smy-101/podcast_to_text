@@ -9,16 +9,15 @@ type Props = {
 
 const AudioPlayer: React.FC<Props> = (props) => {
 	const { tracks } = props;
+
 	const [trackIndex, setTrackIndex] = useState(0); //Podcast索引
 	const [trackProgress, setTrackProgress] = useState(0); //Podcast进度
 	const [isPlaying, setIsPlaying] = useState(false);
+	const intervalRef = useRef<any>(); //定时器
 
 	const { title, podcastSrc } = tracks[trackIndex];
-
 	const audioRef = useRef(new Audio(podcastSrc));
-	const intervalRef = useRef<any>();
 	const isReady = useRef(false);
-
 	const { duration } = audioRef.current;
 
 	const currentPercentage = duration ? `${(trackProgress / duration) * 100}%` : "0%";
@@ -47,12 +46,18 @@ const AudioPlayer: React.FC<Props> = (props) => {
 	};
 
 	const onScrubEnd = () => {
+		console.log('触发!');
 		// If not already playing, start
 		if (!isPlaying) {
 			setIsPlaying(true);
+			audioRef.current.play();
 		}
 		startTimer();
 	};
+
+	// const onTrackChange = () => {
+	//
+	// }
 
 	const toPrevTrack = () => {
 		if (trackIndex - 1 < 0) {
@@ -70,19 +75,9 @@ const AudioPlayer: React.FC<Props> = (props) => {
 		}
 	};
 
-	useEffect(() => {
-		if (isPlaying) {
-			audioRef.current.play();
-			startTimer();
-		} else {
-			audioRef.current.pause();
-		}
-	}, [isPlaying]);
-
 	// Handles cleanup and setup when changing tracks
 	useEffect(() => {
 		audioRef.current.pause();
-
 		audioRef.current = new Audio(podcastSrc);
 		setTrackProgress(audioRef.current.currentTime);
 
@@ -95,6 +90,19 @@ const AudioPlayer: React.FC<Props> = (props) => {
 			isReady.current = true;
 		}
 	}, [trackIndex]);
+
+	const onPlayPauseChange = () => {
+		console.log(audioRef.current.duration,'duration');
+		if (!isPlaying){
+			audioRef.current.play();
+			startTimer();
+		}else {
+			audioRef.current.pause();
+			clearInterval(intervalRef.current);
+		}
+		setIsPlaying(!isPlaying);
+	}
+
 
 	useEffect(() => {
 		// Pause and clean up on unmount
@@ -111,14 +119,14 @@ const AudioPlayer: React.FC<Props> = (props) => {
 					<img className='artwork' src={reactSvg} alt=""/>
 					<h2 className="title">{title}</h2>
 					<h3 className="artist">xxyy</h3>
-					<AudioControls isPlaying={isPlaying} onNextClick={toNextTrack} onPlayPauseClick={() => setIsPlaying(!isPlaying)} onPrevClick={toPrevTrack} />
+					<AudioControls isPlaying={isPlaying} onNextClick={toNextTrack} onPlayPauseClick={onPlayPauseChange} onPrevClick={toPrevTrack} />
 
 					<input
 						type="range"
 						value={trackProgress}
 						step="1"
 						min="0"
-						max={duration ? duration : `${duration}`}
+						max={duration ? duration : 100}
 						className="progress"
 						onChange={(e) => onScrub(e.target.value)}
 						onMouseUp={onScrubEnd}
