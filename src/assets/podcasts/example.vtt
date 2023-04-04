@@ -1,0 +1,1226 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.760
+ Hello everybody. Welcome back to another episode of Ruby for all. Julie, what is up?
+
+00:00:06.760 --> 00:00:12.720
+ It was 35 degrees outside today and I could not take my kids on a walk to school because
+
+00:00:12.720 --> 00:00:13.720
+ it was too cold.
+
+00:00:13.720 --> 00:00:18.720
+ I told you before the show started, it's a little chilly here too. But when I say chilly
+
+00:00:18.720 --> 00:00:24.760
+ here, I mean like 60 degrees, but that's still chilly for me. But I was like, get out of
+
+00:00:24.760 --> 00:00:26.800
+ bed. It's cold.
+
+00:00:26.800 --> 00:00:30.920
+ Wait, so was it 60 degrees in your house or outside?
+
+00:00:30.920 --> 00:00:37.040
+ Outside. It's 60 right now. This morning it was in the 50s. Would you rather be cold or
+
+00:00:37.040 --> 00:00:38.120
+ hot?
+
+00:00:38.120 --> 00:00:43.560
+ I would definitely hands down want it to be spring and summer now.
+
+00:00:43.560 --> 00:00:47.480
+ Yep. That's why I like Arizona because it's already almost spring. I don't know what this
+
+00:00:47.480 --> 00:00:53.560
+ random cold front is, but it was really nice before it came through and I'm ready for it.
+
+00:00:53.560 --> 00:00:58.880
+ 60 degrees can mean very differently for like shade and the sun shining down. Like if it's
+
+00:00:58.880 --> 00:01:06.960
+ sunny and there's no wind and it's 65, I can deal with that. But I especially struggle with
+
+00:01:06.960 --> 00:01:11.440
+ what I'm supposed to wear when it's 65 because am I going to be standing in the sun or am
+
+00:01:11.440 --> 00:01:15.320
+ I going to be standing in the shade? Is it going to be windy? I don't know how windy
+
+00:01:15.320 --> 00:01:16.320
+ wind is.
+
+00:01:16.320 --> 00:01:22.800
+ Yeah. I am the master of layers because I'm always cold. And when I used to live in North
+
+00:01:22.800 --> 00:01:29.399
+ Carolina, it would be like 30 in the morning and like 70 in the afternoon. And so I would
+
+00:01:29.399 --> 00:01:34.240
+ biking to class and stuff or skateboarding to class and it's like, Oh my God, I'm freezing.
+
+00:01:34.240 --> 00:01:38.940
+ I can't feel my hands. I can't feel my face. There's snot running down my face. And later
+
+00:01:38.940 --> 00:01:43.420
+ that day I'm profusely sweating. It's like, what is this?
+
+00:01:43.420 --> 00:01:45.520
+ That's like getting ready to go skiing.
+
+00:01:45.520 --> 00:01:47.840
+ Yeah. Do you ski?
+
+00:01:47.840 --> 00:01:54.280
+ I do. I went on a ski trip, not last week, but the week before and amazing snow. Cause
+
+00:01:54.280 --> 00:02:01.320
+ we got in and then there was a series of snow storms every other day was a snowstorm. So
+
+00:02:01.320 --> 00:02:04.920
+ we skied every other day after and got this nice, beautiful powder.
+
+00:02:04.920 --> 00:02:09.960
+ Nice. I snowboard, but I haven't done in a while, but I really enjoy it when I get to
+
+00:02:09.960 --> 00:02:11.080
+ do it.
+
+00:02:11.080 --> 00:02:15.080
+ I did snowboarding too. So I started with skis. Then I switched over to snowboarding
+
+00:02:15.080 --> 00:02:19.240
+ cause it was like the cool thing to do. I was a teenager at the time. I switched back
+
+00:02:19.240 --> 00:02:25.260
+ mainly because my kids are skiing now and it's way easier to be on skis to lift them
+
+00:02:25.260 --> 00:02:27.060
+ up if they fall.
+
+00:02:27.060 --> 00:02:32.560
+ That makes sense. My dad is a skier. When I saw like the options of like skiing or the
+
+00:02:32.560 --> 00:02:36.920
+ snowboarders like Sean White was really big when I was younger and like snowboarding was
+
+00:02:36.920 --> 00:02:41.040
+ like all the rage. I'm like, I'm trying to shred. I picked up snowboarding relatively
+
+00:02:41.040 --> 00:02:46.160
+ easily. I surfed and I skateboarded and long boarded and I feel like I'm kind of used to
+
+00:02:46.160 --> 00:02:48.560
+ boards. So I kind of picked it up quickly, which was nice.
+
+00:02:48.560 --> 00:02:54.519
+ I had a conversation about this with somebody about boards, board sports. Do they actually
+
+00:02:54.519 --> 00:03:00.880
+ transfer between them? Like I feel like surfing and skateboarding and snowboarding, even though
+
+00:03:00.880 --> 00:03:05.799
+ they're all boards and you're standing like the same way, don't seem like you could transfer
+
+00:03:05.799 --> 00:03:06.799
+ the same muscles.
+
+00:03:06.799 --> 00:03:07.799
+ It's a lot of balancing.
+
+00:03:07.799 --> 00:03:10.000
+ You don't use the same muscles.
+
+00:03:10.000 --> 00:03:15.040
+ There are a lot of aspects that don't transfer, but in terms of like, I need to balance, like
+
+00:03:15.040 --> 00:03:20.000
+ there are muscles like in your legs and back and stuff that you tune up for balancing better.
+
+00:03:20.000 --> 00:03:23.760
+ If you just kind of understand how your balance works a little bit, I think it's a little
+
+00:03:23.760 --> 00:03:29.480
+ bit easier. Snowboarding and skateboarding are a lot more similar than surfing. So not
+
+00:03:29.480 --> 00:03:33.440
+ one-to-one, but I feel like if you kind of are already a little bit comfortable on a
+
+00:03:33.440 --> 00:03:37.520
+ board, then you also don't have that fear aspect too of like, oh, what if I fall?
+
+00:03:37.520 --> 00:03:38.520
+ I still have that fear aspect.
+
+00:03:38.520 --> 00:03:39.520
+ Well, I do too sometimes.
+
+00:03:39.520 --> 00:03:45.320
+ Okay. Okay. So a snowboard, especially if the snow is powdery, I could fall on this
+
+00:03:45.320 --> 00:03:50.520
+ powdery snow. It just feels like falling on a cloud, but in a skateboard and falling on
+
+00:03:50.520 --> 00:03:52.920
+ cement, I feel like I can't do that.
+
+00:03:52.920 --> 00:03:59.200
+ I've broken my elbow doing that and busted things up. When I moved from North Carolina,
+
+00:03:59.200 --> 00:04:04.560
+ I broke my elbow or like, it was a bad fracture basically, because I was in a cast. So if
+
+00:04:04.560 --> 00:04:09.500
+ you're in a cast, I consider it broken basically. And I was about to move to Arizona. My parents
+
+00:04:09.500 --> 00:04:14.600
+ had to come down to help me move out because my arm was in a cast and I drove across the
+
+00:04:14.600 --> 00:04:15.600
+ country with one arm.
+
+00:04:15.600 --> 00:04:18.440
+ Oh my gosh. Wait, which arm was broken?
+
+00:04:18.440 --> 00:04:20.040
+ Left. My left arm.
+
+00:04:20.040 --> 00:04:21.680
+ Oh, are you right-handed?
+
+00:04:21.680 --> 00:04:22.680
+ I am right-handed.
+
+00:04:22.680 --> 00:04:25.600
+ Okay. I guess that's a little bit better.
+
+00:04:25.600 --> 00:04:30.480
+ It wasn't too bad, but I mean, driving across the country in a cast isn't fun. I got to
+
+00:04:30.480 --> 00:04:34.080
+ like the corner of Texas and El Paso and I was like, I'm done with the cast. I don't
+
+00:04:34.080 --> 00:04:39.240
+ care. Took it off. It wasn't like one of those ones that was wrapped in plaster and
+
+00:04:39.240 --> 00:04:45.120
+ stuff. It was like wrapped differently. And so I was able to take it off myself. I don't
+
+00:04:45.120 --> 00:04:46.120
+ even remember now.
+
+00:04:46.120 --> 00:04:47.520
+ Is it like not a hard cast?
+
+00:04:47.520 --> 00:04:52.400
+ It was hard, but it was like almost splinted or something. Now I don't really remember.
+
+00:04:52.400 --> 00:04:56.840
+ How did I get that off? I don't remember. I just know I got it off.
+
+00:04:56.840 --> 00:04:58.800
+ I thought you had a saw it off.
+
+00:04:58.800 --> 00:05:04.840
+ The hard plaster casts you do. I've been in plenty of those. It wasn't that, but it was
+
+00:05:04.840 --> 00:05:09.400
+ still wrapped though. It was something that I could take off though by myself. I don't
+
+00:05:09.400 --> 00:05:14.479
+ remember. Anyway, so we've been hinting at this for a while, but in February we're going
+
+00:05:14.479 --> 00:05:18.760
+ to be doing something fun. That was your idea, which I think is going to be a lot of fun
+
+00:05:18.760 --> 00:05:23.340
+ where we're kind of going to go through some of our favorite Ruby methods all month for
+
+00:05:23.340 --> 00:05:29.000
+ each episode, kind of focusing on a different type of object type. Did I explain that well?
+
+00:05:29.000 --> 00:05:37.320
+ Well, I came across this idea mainly because I had talked to Colin Jover about, hey, I
+
+00:05:37.320 --> 00:05:42.120
+ want to get better at trying to remember my Ruby methods and just being able to pull it
+
+00:05:42.120 --> 00:05:46.280
+ out of a bag more quickly. Because I feel like at work, I don't really get a chance
+
+00:05:46.280 --> 00:05:53.600
+ to do that. And so he suggested to do some codores. So I would try to do one per day.
+
+00:05:53.600 --> 00:05:58.800
+ And I really liked them. They were very bite-sized. I thought that it would be more like a leet
+
+00:05:58.800 --> 00:06:03.760
+ code type thing where those seemed more involved and they were more complex. And I had to learn
+
+00:06:03.760 --> 00:06:07.640
+ about all these data structures and algorithms. And I was like, I'm not interested in doing
+
+00:06:07.640 --> 00:06:16.080
+ that. But doing the kata every day helped me kind of build up my bag of methods and
+
+00:06:16.080 --> 00:06:19.880
+ figured we could chat about some of our favorite methods on the show.
+
+00:06:19.880 --> 00:06:25.040
+ Yeah. Let's do it. Hopefully we'll just stop and remember or figure out the method if we
+
+00:06:25.040 --> 00:06:30.200
+ don't explain it well. I often get mid explanation. I'm like, wait, I don't know as much about
+
+00:06:30.200 --> 00:06:33.960
+ this as I thought I did, but we're going to try. And we're going to start with my favorite
+
+00:06:33.960 --> 00:06:39.720
+ method, which is on the array object, which is map. You like to map Julie?
+
+00:06:39.720 --> 00:06:42.200
+ I do. Why do you like it?
+
+00:06:42.200 --> 00:06:47.920
+ I feel like I just use it a lot. So map is a method on array that basically returns a
+
+00:06:47.920 --> 00:06:56.120
+ new array if the conditions are met that you put inside of the block that map takes. And
+
+00:06:56.120 --> 00:07:01.780
+ you can use the block shorthand, which is like an ampersand colon or an ampersand symbol.
+
+00:07:01.780 --> 00:07:06.360
+ So like if you had a list of users and you wanted to get all their posts, you could say
+
+00:07:06.360 --> 00:07:13.120
+ users.map and colon posts. And that would return you that list, which you wouldn't need
+
+00:07:13.120 --> 00:07:16.320
+ to do an active record. But that's one way you could do that.
+
+00:07:16.320 --> 00:07:22.000
+ Typically you pass it a block and you do some sort of logical condition that's like, okay,
+
+00:07:22.000 --> 00:07:29.240
+ if the value is over one, add it to my new array. And that's a nice way to take a list
+
+00:07:29.240 --> 00:07:35.719
+ of data and convert it into a new list of data that you can then use wherever you want.
+
+00:07:35.719 --> 00:07:41.560
+ I do this a lot. I use map all the time. It has an alias called collect that I also like.
+
+00:07:41.560 --> 00:07:45.659
+ And I didn't realize collect was an alias for map for a little bit. So I was like using
+
+00:07:45.660 --> 00:07:50.280
+ collect all over the place. But yeah, I love a map. I love a good map.
+
+00:07:50.280 --> 00:07:57.880
+ So map iterates over an array and you pass it a block. If the conditions are met, it
+
+00:07:57.880 --> 00:08:06.640
+ kind of like shovels into some new array. Yes. And then map returns an array.
+
+00:08:06.640 --> 00:08:10.560
+ I really like the shorthand ampersand colon thing.
+
+00:08:10.560 --> 00:08:16.320
+ Yeah. That can be really nice just to shorten some code. If you have a conditional on your
+
+00:08:16.320 --> 00:08:22.480
+ method, let's say we had posts and we only wanted to get the ones that were archived.
+
+00:08:22.480 --> 00:08:27.880
+ So you can do post.map archived if that's a Boolean because that would evaluate to true
+
+00:08:27.880 --> 00:08:33.360
+ or false because basically whether or not the thing is added to the new array is whether
+
+00:08:33.360 --> 00:08:38.380
+ the conditional is true or not. And so archived would be a Boolean and that would be an easy
+
+00:08:38.380 --> 00:08:40.600
+ way to use that shorthand syntax.
+
+00:08:40.600 --> 00:08:44.000
+ But if you're doing some more complex logic, then you're probably not going to be able
+
+00:08:44.000 --> 00:08:48.960
+ to get away with that. Cool. Array flatten is another one I really like. So a lot of
+
+00:08:48.960 --> 00:08:55.040
+ times if you're using map, you might return several arrays and then store them in a big
+
+00:08:55.040 --> 00:08:59.300
+ array. So now you have an array filled with arrays. And what flatten does is it recursively
+
+00:08:59.300 --> 00:09:06.100
+ flattens every array inside of the object you're iterating over and returns just one
+
+00:09:06.100 --> 00:09:11.520
+ flat array. And there's actually a method called flat map, which will allow you to map,
+
+00:09:11.520 --> 00:09:15.120
+ but it will return everything flattened, which is like kind of shorthand. So a lot of times
+
+00:09:15.120 --> 00:09:20.040
+ you'll see people do like dot map, then dot flatten. Flat map is a way to skip over that.
+
+00:09:20.040 --> 00:09:24.800
+ But typically if you're wanting to put a list of things in a table or a list or something,
+
+00:09:24.800 --> 00:09:29.360
+ you're going to want a completely flat array. And so that's where flatten really kind of
+
+00:09:29.360 --> 00:09:30.360
+ comes in handy.
+
+00:09:30.360 --> 00:09:36.520
+ Does flatten work on nested arrays? So you might have like an array inside of an array
+
+00:09:36.520 --> 00:09:41.000
+ inside of an array and that'll still flatten it. Or does it just do one layer?
+
+00:09:41.000 --> 00:09:44.880
+ It should be recursive. And I think you can actually pass it level, I believe.
+
+00:09:44.880 --> 00:09:45.920
+ Oh, cool.
+
+00:09:45.920 --> 00:09:53.520
+ So yes, you can pass it a level. So if you don't call a level, it will recursively flatten
+
+00:09:53.520 --> 00:09:57.120
+ everything. So what you were saying, like if we have an array inside of an array inside
+
+00:09:57.120 --> 00:10:03.400
+ of an array, everything will be flat if you don't specify level. But if you have an array
+
+00:10:03.400 --> 00:10:09.920
+ with inside of an array inside of an array and you only pass it level zero, level zero
+
+00:10:09.920 --> 00:10:16.160
+ will take the array and flatten it. It doesn't look like it flattens it at all.
+
+00:10:16.160 --> 00:10:17.920
+ Like it just returns the same thing.
+
+00:10:17.920 --> 00:10:23.000
+ That's what it looks like. And then if you pass it one, it flattens one level deep. And
+
+00:10:23.000 --> 00:10:28.160
+ if you pass it two, it flattens two levels deep. If you pass it three, it flattens three
+
+00:10:28.160 --> 00:10:32.840
+ levels deep. So like on the Ruby docs, like they have a nested array inside an array inside
+
+00:10:32.840 --> 00:10:36.400
+ of an array. And when you pass it three, it flattens everything. You pass it zero, it
+
+00:10:36.400 --> 00:10:37.400
+ doesn't flatten anything.
+
+00:10:37.400 --> 00:10:42.600
+ Hi there. Julie here. I would like to take a moment to thank Go Rails for sponsoring
+
+00:10:42.600 --> 00:10:47.440
+ this episode. When I was first starting out, I struggled with finding up-to-date content
+
+00:10:47.440 --> 00:10:52.760
+ to help me level up. Then I learned about Go Rails. Not only does Go Rails provide new
+
+00:10:52.760 --> 00:10:58.240
+ screencasts weekly, they also have two fantastic instructors that break down complex topics
+
+00:10:58.240 --> 00:11:03.360
+ into digestible chunks. On top of that, I really appreciate when they explain the whys
+
+00:11:03.360 --> 00:11:09.880
+ behind the subject. One of my favorite walkthroughs is creating your first Ruby gem from scratch.
+
+00:11:09.880 --> 00:11:14.240
+ What a great way to learn by stripping down to just the basics. If you care about leveling
+
+00:11:14.240 --> 00:11:21.040
+ up as a Ruby engineer, you can't go wrong with Go Rails. Check it out at gorails.com.
+
+00:11:21.040 --> 00:11:26.959
+ Even passing in zero literally just returns the same array, which is very interesting.
+
+00:11:26.959 --> 00:11:32.480
+ That is something I noticed that when using methods, I have just pulled up the Ruby docs
+
+00:11:32.480 --> 00:11:39.160
+ because I think a lot of these methods, you can pass in blocks and you can pass in parameters.
+
+00:11:39.160 --> 00:11:43.000
+ And sometimes you don't know that you can do that until you open up the docs. And then
+
+00:11:43.000 --> 00:11:46.880
+ you realize, oh, these are these other cool things that I could do with it. Or sometimes
+
+00:11:46.880 --> 00:11:51.120
+ it returns something different that I didn't anticipate that it was returning.
+
+00:11:51.120 --> 00:11:55.280
+ Yeah. I had no idea you could pass level to flatten until just now. I'm not sure when
+
+00:11:55.280 --> 00:12:00.360
+ I would use that, but I'm sure it's handy in some cases. I don't know.
+
+00:12:00.360 --> 00:12:06.560
+ If you're listening and you happen to pass in a parameter to flatten, let us know. We'd
+
+00:12:06.560 --> 00:12:10.000
+ like to find out what the use case for this would be.
+
+00:12:10.000 --> 00:12:15.400
+ Yeah. So that's flatten and flatten app. A lovely combination.
+
+00:12:15.400 --> 00:12:25.520
+ Our next method is unique UNIQ, which returns a new array, but only the ones that are not
+
+00:12:25.520 --> 00:12:32.000
+ duplicated. So if you had an array of one, two, two, three, it'll just return one, two,
+
+00:12:32.000 --> 00:12:33.000
+ three.
+
+00:12:33.000 --> 00:12:38.100
+ Yep. And it retains the first occurrence, which can be important because I've seen places
+
+00:12:38.100 --> 00:12:44.120
+ where people are trying to iterate over authors. Let's say you have authors attached to posts
+
+00:12:44.120 --> 00:12:48.960
+ and maybe the author roles are different. And you want to list everyone who worked on
+
+00:12:48.960 --> 00:12:55.680
+ that post. Maybe you have an editor and their author, and maybe the editor was also a co-author.
+
+00:12:55.680 --> 00:13:00.600
+ So maybe the co-author, only one person edited it and you want to list all the authors. If
+
+00:13:00.600 --> 00:13:04.680
+ you're iterating over authors and you're adding unique on it, you're only going to get the
+
+00:13:04.680 --> 00:13:10.080
+ first two, even though if you're not specifying, if it's a role, you want to group by at that
+
+00:13:10.080 --> 00:13:11.080
+ point.
+
+00:13:11.080 --> 00:13:13.600
+ So I just wanted to call it that it is the first occurrence that gets retained because
+
+00:13:13.600 --> 00:13:17.760
+ I've seen people trip up on that before. Oh, I thought it would return this one, but why
+
+00:13:17.760 --> 00:13:23.960
+ is it uniking and returning this one instead? And it has to do with the order in the array.
+
+00:13:23.960 --> 00:13:29.520
+ I am going to be honest. I'm having trouble understanding your example. What is the problem
+
+00:13:29.520 --> 00:13:30.520
+ again?
+
+00:13:30.520 --> 00:13:36.860
+ So sometimes you have an array of items, let's say an array of objects, and there's actually
+
+00:13:36.860 --> 00:13:42.480
+ something on the object that differentiates it from the other, like a role. So if we had
+
+00:13:42.480 --> 00:13:48.200
+ a list of authors and they all have a role, if you want to make sure that no author is
+
+00:13:48.200 --> 00:13:54.080
+ duplicated, you would add unique, but that's going to leave off someone who has maybe two
+
+00:13:54.080 --> 00:13:56.280
+ different roles on that same record.
+
+00:13:56.280 --> 00:13:57.280
+ Okay.
+
+00:13:57.280 --> 00:14:02.240
+ So if you're entering authors while unique, it's going to return the first occurrence
+
+00:14:02.240 --> 00:14:07.360
+ of that person, not maybe the one with the second role on it. And it depends on how you
+
+00:14:07.360 --> 00:14:11.680
+ set it up. But I just wanted to call that out, that it does retain the first occurrence
+
+00:14:11.680 --> 00:14:13.760
+ because I have seen people trip on that.
+
+00:14:13.760 --> 00:14:21.359
+ Nice. Thanks for letting me know. And can you pass in a parameter or a block with this
+
+00:14:21.359 --> 00:14:22.359
+ one?
+
+00:14:22.359 --> 00:14:27.880
+ I have no idea. It looks like you can pass a block. With a block given, it calls the
+
+00:14:27.880 --> 00:14:32.040
+ block for each element, identifies using method equal, and removes the elements for which
+
+00:14:32.040 --> 00:14:33.920
+ the block returns duplicate values.
+
+00:14:33.920 --> 00:14:34.920
+ Wow.
+
+00:14:34.920 --> 00:14:40.479
+ So in their example, they're uniking on the size of an element. So they're calling array.unique
+
+00:14:40.480 --> 00:14:45.120
+ and they're passing it a block where it's element and then it turns element.size. In
+
+00:14:45.120 --> 00:14:52.400
+ that instance, the array they have is a, a, a, a, a, a, b, b, b, b, b. So when I am looking
+
+00:14:52.400 --> 00:14:56.680
+ at this, and if I call unique without passing it a block, it's going to return that same
+
+00:14:56.680 --> 00:15:03.480
+ array, right? Because every element is unique. It's a, a, a, a, a, b, b, b, b, b, b, b, b,
+
+00:15:03.480 --> 00:15:04.480
+ b, b, b.
+
+00:15:04.480 --> 00:15:10.280
+ So if you pass it a block and say element.size, you're saying I want to return the unique
+
+00:15:10.280 --> 00:15:15.839
+ list where it's basing it off element.size. So when you do that, it returns a, a, a, a,
+
+00:15:15.839 --> 00:15:21.959
+ a, a, because the size of each of these strings is one, two, or three. And that's the unique
+
+00:15:21.959 --> 00:15:22.959
+ aspect.
+
+00:15:22.959 --> 00:15:25.000
+ So b doesn't get returned.
+
+00:15:25.000 --> 00:15:27.280
+ Right. Because it's taking the first occurrences.
+
+00:15:27.280 --> 00:15:34.040
+ Yeah. Okay. So if you did something like a.reverse.unique, then you would probably get the b's back
+
+00:15:34.040 --> 00:15:35.280
+ instead of the a's.
+
+00:15:35.280 --> 00:15:36.280
+ Correct.
+
+00:15:36.280 --> 00:15:38.319
+ Cool. Learned something new.
+
+00:15:38.320 --> 00:15:43.160
+ I felt like I knew that, but I haven't looked at that in a while. So that's how you would
+
+00:15:43.160 --> 00:15:49.800
+ use going back to my authors on the post example, you would unique on the role maybe. So you
+
+00:15:49.800 --> 00:15:53.400
+ want like unique person from each role to be displayed.
+
+00:15:53.400 --> 00:15:55.320
+ That is the great point.
+
+00:15:55.320 --> 00:16:01.320
+ Next one is shuffle, which returns a new array with the elements of self-shuffled self being
+
+00:16:01.320 --> 00:16:06.080
+ the array that this is called on. I don't use this a lot. I use this sometimes when
+
+00:16:06.080 --> 00:16:11.880
+ I do coding problems, but I don't usually use this in practice. And the only thing,
+
+00:16:11.880 --> 00:16:17.360
+ reason I could think of to use this in practice is if maybe a post has related posts and you
+
+00:16:17.360 --> 00:16:21.160
+ want to show those in a random order, most people would want to show them on the date
+
+00:16:21.160 --> 00:16:24.220
+ they're created or something. But if you want to show them in a random order, like, Hey,
+
+00:16:24.220 --> 00:16:29.800
+ you might like these posts. And then it just grabs a random order of posts and just displays
+
+00:16:29.800 --> 00:16:30.800
+ them.
+
+00:16:30.800 --> 00:16:35.280
+ But you can also pass random to it, which I did not know. And the optional random argument
+
+00:16:35.280 --> 00:16:37.880
+ will be used as a random number generator.
+
+00:16:37.880 --> 00:16:42.959
+ I might have to play around with that for a little bit. So the method that's after this
+
+00:16:42.959 --> 00:16:51.199
+ is sample on an array. And I actually did use shuffle and sample in practice. So what
+
+00:16:51.199 --> 00:16:58.839
+ sample is it returns a random element from the array. And you can also pass in an argument
+
+00:16:58.840 --> 00:17:08.480
+ to return however number that you want to get from this. Okay. So if I'm trying to get,
+
+00:17:08.480 --> 00:17:13.760
+ let's say an array of five things and I need a sample of two things from it, it's randomly
+
+00:17:13.760 --> 00:17:18.400
+ grabbing two things from it, right? I don't need to do shuffle dot sample.
+
+00:17:18.400 --> 00:17:19.400
+ Yes.
+
+00:17:19.400 --> 00:17:24.280
+ So I'm wondering if I did not do shuffle dot sample. And I think I just did sample, but
+
+00:17:24.280 --> 00:17:29.280
+ I think the original code might've been something like shuffle it and then grab me the first
+
+00:17:29.280 --> 00:17:37.280
+ two items or something like that. But in practice we have say assessments and we only want to
+
+00:17:37.280 --> 00:17:43.480
+ get a quiz of five things. Then we can call a sample of five on that. And then it'll randomly
+
+00:17:43.480 --> 00:17:49.560
+ return these five assessments. That way our learners can get like a different variety
+
+00:17:49.560 --> 00:17:52.440
+ of questions each time they do the quiz.
+
+00:17:52.440 --> 00:17:58.360
+ That makes a lot of sense. I've done a lot of online school. And so that maps perfectly
+
+00:17:58.360 --> 00:18:02.560
+ to what I understand. Sometimes you'll go through a lesson assessment and you answer
+
+00:18:02.560 --> 00:18:06.280
+ the questions and you write them all down and then you don't send it to anyone because
+
+00:18:06.280 --> 00:18:11.400
+ that would be cheating. But let's just say you come back to that assessment and it's
+
+00:18:11.400 --> 00:18:15.640
+ a completely different questions or it's a different order. And you're like, what happened
+
+00:18:15.640 --> 00:18:19.520
+ here? That's a great use case for that. Yeah. That's cool.
+
+00:18:19.520 --> 00:18:27.280
+ So moving on from sample and shuffle is count, which returns the count of specified elements.
+
+00:18:27.280 --> 00:18:32.020
+ And if you don't pass it a block or an argument, it will return the count of all elements.
+
+00:18:32.020 --> 00:18:35.760
+ So this is probably something a lot of people are familiar with. Maybe you're showing five
+
+00:18:35.760 --> 00:18:40.720
+ posts on a page and you're paginating that, but you want to show the user the count of
+
+00:18:40.720 --> 00:18:43.160
+ all posts, maybe at the top of the page.
+
+00:18:43.160 --> 00:18:48.000
+ Showing five out of a thousand posts..count might be a thing you use there. I mean, depending
+
+00:18:48.000 --> 00:18:52.840
+ on the pagination library, but removing that aspect..count would be a great way to do
+
+00:18:52.840 --> 00:18:57.200
+ that where you already have your list of objects and you can call.count and get the count
+
+00:18:57.200 --> 00:18:58.200
+ of them.
+
+00:18:58.200 --> 00:19:02.960
+ And the nice thing with an array is it's not going to make a SQL query if those objects
+
+00:19:02.960 --> 00:19:07.080
+ are already loaded into memory. So it's not using the SQL count. It's just counting the
+
+00:19:07.080 --> 00:19:13.320
+ elements in the array. Because there are some methods in ActiveRecord that use the SQL count,
+
+00:19:13.320 --> 00:19:18.800
+ like calling count in SQL to calculate how many records there are. But.count is an array
+
+00:19:18.800 --> 00:19:21.800
+ method and it should not do that.
+
+00:19:21.800 --> 00:19:22.800
+ Oh.
+
+00:19:22.800 --> 00:19:29.000
+ Count executes a count every time. So in ActiveRecord, it will, this is inappropriate in general,
+
+00:19:29.000 --> 00:19:33.800
+ it will only use count if you always want to execute a SQL count right now. So then
+
+00:19:33.800 --> 00:19:40.419
+.size, dang, this got complicated. This is something I always have to go back and look
+
+00:19:40.420 --> 00:19:45.000
+ at because I'm like, one of them is performant. One of them is less performant, but is very
+
+00:19:45.000 --> 00:19:49.160
+ performant in certain circumstances. And one of them you just shouldn't use. But this is
+
+00:19:49.160 --> 00:19:56.160
+ the only with ActiveRecord,.count with just an array is not going to execute a SQL query.
+
+00:19:56.160 --> 00:20:02.720
+ But for an ActiveRecord relation,.count will execute a SQL query. And most Rails developers
+
+00:20:02.720 --> 00:20:05.280
+ should actually be using size in most places, I believe.
+
+00:20:05.280 --> 00:20:10.600
+ Yeah. So when you use size, you don't use the count query and it uses a select. Only
+
+00:20:10.600 --> 00:20:16.320
+ use count if you want to always execute a SQL count query. So I got that wrong.
+
+00:20:16.320 --> 00:20:19.920
+ The number one reason startups fail is that they run out of money. There are so many ways
+
+00:20:19.920 --> 00:20:24.000
+ for startups to lose money. Downtime should not be one. Recent studies found that downtime
+
+00:20:24.000 --> 00:20:30.760
+ can cost $427 per minute for small businesses and up to $9,000 per minute for medium sized
+
+00:20:30.760 --> 00:20:34.860
+ businesses. That's every single minute. A monthly subscription with Honey Badger helps
+
+00:20:34.860 --> 00:20:38.959
+ you prevent costly downtime by giving you all the monitoring you need in one easy to
+
+00:20:38.959 --> 00:20:42.879
+ use platform so you can quickly understand what's going on and how to fix it, which helps
+
+00:20:42.879 --> 00:20:47.280
+ you stay in business. Get started today in as little as five minutes at honeybadger.io
+
+00:20:47.280 --> 00:20:51.560
+ with plans starting at free. Yeah, you heard me, free. A big thank you to Honey Badger
+
+00:20:51.560 --> 00:20:54.479
+ for sponsoring this episode of Ruby for All.
+
+00:20:54.479 --> 00:21:00.240
+ When would you want to use a SQL count query versus not?
+
+00:21:00.240 --> 00:21:05.240
+ When none of the records are loaded in memory at all, maybe. I think in general, you don't
+
+00:21:05.240 --> 00:21:10.280
+ want to do it if you don't have to for an active record relation. I have relearned this
+
+00:21:10.280 --> 00:21:14.240
+ stuff several times and I always forget. There are several great articles out there. I'll
+
+00:21:14.240 --> 00:21:18.320
+ put one in the show notes and people can check it out.
+
+00:21:18.320 --> 00:21:23.420
+ And.length is not something that you would want to use either?
+
+00:21:23.420 --> 00:21:30.200
+ Not with active record. I think size is the one you want to use. If the relation is loaded,
+
+00:21:30.200 --> 00:21:33.640
+ that is the query that the relation describes has been executed and we've already stored
+
+00:21:33.640 --> 00:21:38.240
+ the result. So let's say you are getting a list of posts in your controller and you're
+
+00:21:38.240 --> 00:21:42.600
+ using a where statement. So you're saving that into a post instance variable, let's
+
+00:21:42.600 --> 00:21:48.880
+ say that's loaded into memory. You can now use length and that won't be bad because you've
+
+00:21:48.880 --> 00:21:53.600
+ already got the relation loaded. But if you were to use count, it's still going to execute
+
+00:21:53.600 --> 00:21:58.320
+ this SQL query. But length, if it's already loaded into memory, length, I don't think
+
+00:21:58.320 --> 00:22:00.360
+ will trigger the query.
+
+00:22:00.360 --> 00:22:06.960
+ Okay. So I think I learned to just use size and not worry about whether it's loaded or
+
+00:22:06.960 --> 00:22:10.000
+ not and trying to use length in those situations.
+
+00:22:10.000 --> 00:22:17.399
+ Yes. So I guess if they're not loaded, I think size might still trigger a SQL query, but
+
+00:22:17.399 --> 00:22:23.399
+ it's not going to run one as performance heavy as using length or count, I think. But you
+
+00:22:23.400 --> 00:22:28.800
+ can also use.load. So if you add like unread posts count, for instance, at the top of your
+
+00:22:28.800 --> 00:22:34.600
+ page, you could do messages.load.size and then that will be performant, more performant
+
+00:22:34.600 --> 00:22:35.600
+ than the others.
+
+00:22:35.600 --> 00:22:36.600
+ Cool.
+
+00:22:36.600 --> 00:22:39.440
+ We'll put an article list in the show notes. I'm basically reading like something from
+
+00:22:39.440 --> 00:22:42.640
+ Nate Berkepek. So we'll put a link to that in the show notes.
+
+00:22:42.640 --> 00:22:44.680
+ Awesome. Thank you, Nate.
+
+00:22:44.680 --> 00:22:45.680
+ Yes.
+
+00:22:45.680 --> 00:22:53.120
+ So our next method is min max. And I like this just because I was using it on a problem.
+
+00:22:53.120 --> 00:23:00.080
+ I don't know a use case for this, but what it does is it returns a two element array
+
+00:23:00.080 --> 00:23:03.159
+ containing the minimum and the maximum value.
+
+00:23:03.159 --> 00:23:08.679
+ I got a use case for you. Let's say you have a dashboard. It's like a trading dashboard
+
+00:23:08.679 --> 00:23:13.719
+ for some financial crap that I don't understand. And you want to show the trade that made you
+
+00:23:13.719 --> 00:23:16.679
+ the least money or that you lost the most money on and you want to show the trade that
+
+00:23:16.679 --> 00:23:20.239
+ has the best result. That could be a great use case for that.
+
+00:23:20.239 --> 00:23:21.239
+ That's a good one.
+
+00:23:21.240 --> 00:23:25.360
+ So if you use a block, it's two parameters. So it would be like min max and then the block
+
+00:23:25.360 --> 00:23:30.040
+ would be A and B. And then you could even use like the spaceship operator to say A dot
+
+00:23:30.040 --> 00:23:33.720
+ size spaceship B dot size. Please don't ask me to explain the spaceship.
+
+00:23:33.720 --> 00:23:34.720
+ You brought up spaceship operators.
+
+00:23:34.720 --> 00:23:35.720
+ Dammit.
+
+00:23:35.720 --> 00:23:37.640
+ I was going to say you brought up spaceship operators. So now you have to explain what
+
+00:23:37.640 --> 00:23:39.080
+ a spaceship operator is.
+
+00:23:39.080 --> 00:23:43.300
+ I truly cannot. Even if I tell you what it means, I still don't fully understand when
+
+00:23:43.300 --> 00:23:49.140
+ to use this one. But it sounds simple, but it's like in process, when do I use this?
+
+00:23:49.140 --> 00:23:53.860
+ So what it is, it compares two objects and returns one if the first object's value is
+
+00:23:53.860 --> 00:23:58.920
+ larger and zero if both values are equal and negative one if the second object's value
+
+00:23:58.920 --> 00:24:06.120
+ is larger. So the example is seven spaceship operator one, and that returns one because
+
+00:24:06.120 --> 00:24:10.040
+ the object on the left is greater than the one on the right. And you have one spaceship
+
+00:24:10.040 --> 00:24:15.060
+ operator one that returns zero because they're both equal. And if you have one spaceship
+
+00:24:15.060 --> 00:24:18.240
+ operator two, it returns negative one because the value on the right is larger than the
+
+00:24:18.240 --> 00:24:24.200
+ one on the left. You see why I didn't want to explain this? It's hard to explain this.
+
+00:24:24.200 --> 00:24:29.580
+ And why I will always look this up as well myself. I have not had to use the spaceship
+
+00:24:29.580 --> 00:24:32.480
+ operator in practice. Have you ever had to?
+
+00:24:32.480 --> 00:24:37.480
+ I've seen it used, but I've never written it. I understand it when I'm reading it, but
+
+00:24:37.480 --> 00:24:41.820
+ in practice it's like, okay, but I could just use like this other thing. Most of the time
+
+00:24:41.820 --> 00:24:46.760
+ there's another way to do it. And if your brain doesn't automatically know how the spaceship
+
+00:24:46.760 --> 00:24:51.280
+ operator works and you've not done it a ton, then you're probably going to lean for the
+
+00:24:51.280 --> 00:24:52.640
+ way you know how to do it.
+
+00:24:52.640 --> 00:24:55.000
+ Got it. That makes sense.
+
+00:24:55.000 --> 00:25:00.360
+ So array.select is our next one, which calls a block if given with each element of the
+
+00:25:00.360 --> 00:25:05.000
+ array and returns a new array containing those elements of the array for which the block
+
+00:25:05.000 --> 00:25:11.240
+ returns a truthy value. Does it return a new array? It does return an array.
+
+00:25:11.240 --> 00:25:19.440
+ Yes. I think it returns a new array, but it only returns the ones that satisfy the condition
+
+00:25:19.440 --> 00:25:21.400
+ that you gave it in the block.
+
+00:25:21.400 --> 00:25:26.400
+ Right. And if you don't pass a block, it returns an enumerator instead of an array.
+
+00:25:26.400 --> 00:25:27.800
+ You said it returns a what now?
+
+00:25:27.800 --> 00:25:28.800
+ Enumerator.
+
+00:25:28.800 --> 00:25:31.160
+ You might have to explain what an enumerator is now.
+
+00:25:31.160 --> 00:25:36.560
+ Oh no. That's what I get. An enumerator is a class which returns both internal and external
+
+00:25:36.560 --> 00:25:41.760
+ iteration. So most methods have two forms. A block form where the contents are evaluated
+
+00:25:41.760 --> 00:25:45.960
+ for each item in the enumeration and a non-block form which returns a new enumerator wrapping
+
+00:25:45.960 --> 00:25:48.800
+ the iteration. That's all I got.
+
+00:25:48.800 --> 00:25:55.720
+ Do you ever use select or similar methods and don't pass in a block?
+
+00:25:55.720 --> 00:26:00.879
+ No. Yeah. Because if I'm using a select, I'm trying to find something in the array typically
+
+00:26:00.880 --> 00:26:08.160
+ or some specific use case. So normally I'm using map, not select. But if I am using select,
+
+00:26:08.160 --> 00:26:10.800
+ I am always passing a block.
+
+00:26:10.800 --> 00:26:13.800
+ Do you always pass a block for map also?
+
+00:26:13.800 --> 00:26:21.080
+ Pretty much. I can't think of a time when I haven't. Fun fact, you added this fun fact.
+
+00:26:21.080 --> 00:26:25.680
+ Filter was not an alias before 2.5, it looks like.
+
+00:26:25.680 --> 00:26:32.740
+ I don't know which Ruby version, but so I was doing a code wars kata and I was trying
+
+00:26:32.740 --> 00:26:39.160
+ to use dot filter for something. I was trying to get back something that met some condition
+
+00:26:39.160 --> 00:26:46.040
+ and it was like a defined method filter, no method error. And I noticed that I was on
+
+00:26:46.040 --> 00:26:52.840
+ version 2.5. So in the kata, you can actually change the Ruby version to some of the problems
+
+00:26:52.840 --> 00:26:57.240
+ to 3.0 if they have it, but this particular one did not have it. So then I went into my
+
+00:26:57.240 --> 00:27:04.699
+ IRB and I was playing around with it and I realized that filter was not an alias until
+
+00:27:04.699 --> 00:27:08.199
+ sometime between 2.5 and 3.0.
+
+00:27:08.199 --> 00:27:14.120
+ Gotcha. I also remember the difference between a select and map. Select returns a new array
+
+00:27:14.120 --> 00:27:19.480
+ filtered by the condition in the block and map returns a new array built from the output
+
+00:27:19.480 --> 00:27:26.240
+ of the block. So like a map, you could pass an X as the block argument and do X plus one
+
+00:27:26.240 --> 00:27:30.960
+ and then your new array would be every value in your original array plus one. But select
+
+00:27:30.960 --> 00:27:35.500
+ is just going to do like a logical comparison and say like, I'd return everything where
+
+00:27:35.500 --> 00:27:39.720
+ X is greater than two. So it's not like changing the data in place.
+
+00:27:39.720 --> 00:27:47.520
+ For map, you will get back the same size array, but for select, you could get the same size
+
+00:27:47.520 --> 00:27:51.000
+ array only if all of the conditions were true.
+
+00:27:51.000 --> 00:27:52.440
+ Yeah. Yeah.
+
+00:27:52.440 --> 00:27:57.840
+ It's like for the map method, the array is going through a transformation and it's all
+
+00:27:57.840 --> 00:28:03.440
+ like the same, but all the values could be different. And then for select, some of them
+
+00:28:03.440 --> 00:28:04.440
+ didn't make the cut.
+
+00:28:04.440 --> 00:28:09.639
+ Right. Yeah. So you would use map if you wanted to change things inside of the array and select
+
+00:28:09.639 --> 00:28:15.440
+ if you just want to conditionally choose some of the elements in the array.
+
+00:28:15.440 --> 00:28:20.680
+ Cool. I thought it was kind of cool. We won't talk about these other methods, but these
+
+00:28:20.680 --> 00:28:30.600
+ aliases, for example, maps alias is collect and filter select. We also have inject, reject,
+
+00:28:30.600 --> 00:28:31.600
+ detect.
+
+00:28:31.600 --> 00:28:32.600
+ Yep. Inspect.
+
+00:28:32.600 --> 00:28:37.360
+ Oh, and inspect.
+
+00:28:37.360 --> 00:28:39.800
+ We're at the end of our array list for now.
+
+00:28:39.800 --> 00:28:46.200
+ But there is one that you missed that I kind of want to bring up. You missed any, and I
+
+00:28:46.200 --> 00:28:53.440
+ kind of like that one because you can do any, all, none. But basically you can pass the
+
+00:28:53.440 --> 00:29:08.200
+ any method and a block and it will return true if any one of the elements met that criteria.
+
+00:29:08.200 --> 00:29:14.720
+ You can also use any to figure out if there are any nil elements in the array. So like
+
+00:29:14.720 --> 00:29:19.920
+ if you had an array of nil and false, and a lot of times you'll use this where you're
+
+00:29:19.920 --> 00:29:24.760
+ like, okay, I don't want to render this list if something is nil inside of it.
+
+00:29:24.760 --> 00:29:29.400
+ Where if you wanted to ignore the fact that there's nil inside of it, you would use compact,
+
+00:29:29.400 --> 00:29:33.200
+ which is a method we didn't talk about, which basically just removes anything that's nil
+
+00:29:33.200 --> 00:29:38.000
+ inside of the array and returns that array without this nil items. So you would do like,
+
+00:29:38.000 --> 00:29:43.120
+ if it was nil and false.any, that's going to return false. But if it's nil zero and
+
+00:29:43.120 --> 00:29:48.440
+ false.any, that's going to return true. And if it's an empty array and you call.any, it
+
+00:29:48.440 --> 00:29:54.280
+ returns false. So nil and false will cause it to be false. But if there's at least one
+
+00:29:54.280 --> 00:29:59.680
+ true element, one true the element inside of the array, it will return true. Versus
+
+00:29:59.680 --> 00:30:05.120
+.any, versus.all, which you talked about, which will return false if any element inside
+
+00:30:05.120 --> 00:30:09.479
+ of the arrays nil or false. You also pass it a block like you said. So like if you had
+
+00:30:09.479 --> 00:30:14.639
+ zero one two dot any, you pass it a block where element is greater than one, it would
+
+00:30:14.639 --> 00:30:19.100
+ return true. Because for that example, we're at zero one two, is there an element greater
+
+00:30:19.100 --> 00:30:22.360
+ than one in there? Yes, there is. So it evaluates it true.
+
+00:30:22.360 --> 00:30:29.199
+ So yeah, I think those are all of the methods that we liked and or use in practice.
+
+00:30:29.199 --> 00:30:33.159
+ Next week, we're going to look at hash. If we did not explain something well, or we missed
+
+00:30:33.160 --> 00:30:38.000
+ your favorite array method, let us know on Twitter, I guess would be the best place because
+
+00:30:38.000 --> 00:30:43.800
+ I do check the email. I'm not an emailer. So check us out. Let us know. I would be definitely
+
+00:30:43.800 --> 00:30:46.000
+ interested in that, especially for the things where we're like, I don't know when I would
+
+00:30:46.000 --> 00:30:50.440
+ use this. If you have a good example use case of what that is, let us know and we'll share
+
+00:30:50.440 --> 00:30:53.080
+ that. Yep. Much appreciated if you do.
+
+00:30:53.080 --> 00:30:58.800
+ Yeah. But I think that's it for this week. Julie, I'll catch you next week on the flip
+
+00:30:58.800 --> 00:30:59.800
+ side.
+
+00:30:59.800 --> 00:31:02.760
+ All right. See you next week. Bye everyone. Thanks for listening. Bye.
+

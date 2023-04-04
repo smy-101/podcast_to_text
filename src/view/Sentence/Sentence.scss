@@ -1,0 +1,12 @@
+.container{
+  font-size: 20px;
+  height: 700px;
+  width: 900px;
+  overflow:auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
