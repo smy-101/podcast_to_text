@@ -1,11 +1,12 @@
 .audioPlayer{
-  max-width: 350px;
+  min-width: 380px;
   padding: 24px;
   border-radius: 20px;
   box-shadow: 0 28px 28px rgba(0, 0, 0, 0.2);
-  margin: auto;
+  margin: auto 14px;
   color: #fff;
   background: #5f9fff;
+  //height: 500px;
 }
 
 .trackInfo{
@@ -32,6 +33,7 @@
   font-weight: 300;
   margin-top: 0;
   color: black;
+  margin-bottom: 14px;
 }
 
 input[type="range"] {

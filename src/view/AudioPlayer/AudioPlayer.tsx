@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { AudioControls } from '@/components/AudioControls/AudioControls';
 import reactSvg from '@/assets/react.svg';
 import './AudioPlayer.scss';
+import {Sentence} from '@/view/Sentence/Sentence';
 
 type Props = {
 	tracks: { title: string; podcastSrc: string }[];
@@ -114,27 +115,30 @@ const AudioPlayer: React.FC<Props> = (props) => {
 
 	return (
 		<>
-			<div className='audioPlayer'>
-				<div className='trackInfo'>
-					<img className='artwork' src={reactSvg} alt=""/>
-					<h2 className="title">{title}</h2>
-					<h3 className="artist">xxyy</h3>
-					<AudioControls isPlaying={isPlaying} onNextClick={toNextTrack} onPlayPauseClick={onPlayPauseChange} onPrevClick={toPrevTrack} />
-
-					<input
-						type="range"
-						value={trackProgress}
-						step="1"
-						min="0"
-						max={duration ? duration : 100}
-						className="progress"
-						onChange={(e) => onScrub(e.target.value)}
-						onMouseUp={onScrubEnd}
-						onKeyUp={onScrubEnd}
-						style={{ background: trackStyling }}
-					/>
+			<div style={{display:'flex'}}>
+				<div className='audioPlayer'>
+					<div className='trackInfo'>
+						<img className='artwork' src={reactSvg} alt=""/>
+						<h2 className="title">{title}</h2>
+						<h3 className="artist">xxyy</h3>
+						<AudioControls isPlaying={isPlaying} onNextClick={toNextTrack} onPlayPauseClick={onPlayPauseChange} onPrevClick={toPrevTrack} />
+						<input
+							type="range"
+							value={trackProgress}
+							step="1"
+							min="0"
+							max={duration ? duration : 100}
+							className="progress"
+							onChange={(e) => onScrub(e.target.value)}
+							onMouseUp={onScrubEnd}
+							onKeyUp={onScrubEnd}
+							style={{ background: trackStyling }}
+						/>
+					</div>
 				</div>
+				<Sentence/>
 			</div>
+
 
 		</>
 	);

@@ -1,13 +1,12 @@
 import tracks from '@/assets/podcasts/tracks';
 import {AudioPlayer} from '@/view/AudioPlayer/AudioPlayer';
-import {Sentence} from '@/view/Sentence/Sentence';
+import './App.scss';
 
 function App() {
 
   return (
     <div className="App">
-      <Sentence/>
-      {/*<AudioPlayer tracks={tracks}/>*/}
+      <AudioPlayer tracks={tracks}/>
     </div>
   )
 }

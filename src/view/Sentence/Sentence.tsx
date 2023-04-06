@@ -14,13 +14,16 @@ const Sentence = () => {
   },[])
 
   return <>
-    <div style={{}} className='container'>
-      {vtt.map((i,index)=>{
-        return <div key={index} style={{margin:'30px 4px',textAlign:'center'}}>
-          <div>{i.text}</div>
-        </div>
-      })}
+    <div style={{height:'100vh',width:'100%',display:'flex',alignItems:'center',justifyContent:'center'}}>
+      <div className='container'>
+        {vtt.map((i,index)=>{
+          return <div key={index} style={{margin:'30px 4px',textAlign:'center'}}>
+            <div>{i.text}</div>
+          </div>
+        })}
+      </div>
     </div>
+
   </>
 };
 
