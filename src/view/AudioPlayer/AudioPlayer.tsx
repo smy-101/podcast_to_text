@@ -36,7 +36,7 @@ const AudioPlayer: React.FC<Props> = (props) => {
 			} else {
 				setTrackProgress(audioRef.current.currentTime);
 			}
-		}, 1000);
+		}, 300);
 	};
 
 	const onScrub = (value: number | string) => {
@@ -47,7 +47,6 @@ const AudioPlayer: React.FC<Props> = (props) => {
 	};
 
 	const onScrubEnd = () => {
-		console.log('触发!');
 		// If not already playing, start
 		if (!isPlaying) {
 			setIsPlaying(true);
@@ -55,10 +54,6 @@ const AudioPlayer: React.FC<Props> = (props) => {
 		}
 		startTimer();
 	};
-
-	// const onTrackChange = () => {
-	//
-	// }
 
 	const toPrevTrack = () => {
 		if (trackIndex - 1 < 0) {
@@ -93,7 +88,6 @@ const AudioPlayer: React.FC<Props> = (props) => {
 	}, [trackIndex]);
 
 	const onPlayPauseChange = () => {
-		console.log(audioRef.current.duration,'duration');
 		if (!isPlaying){
 			audioRef.current.play();
 			startTimer();
@@ -136,7 +130,7 @@ const AudioPlayer: React.FC<Props> = (props) => {
 						/>
 					</div>
 				</div>
-				<Sentence/>
+				<Sentence currentTime={audioRef.current.currentTime}/>
 			</div>
 
 
